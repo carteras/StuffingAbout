@@ -1,7 +1,7 @@
 import datetime
 import genetic
 
-
+#s
 def get_fitness(genes, target):
     return sum(1 for expected, actual in zip(target, genes) if expected == actual)
 

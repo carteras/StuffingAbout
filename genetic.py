@@ -1,6 +1,6 @@
 import random
 
-
+#s
 def _generate_parent(length, gene_set):
     genes = []
     while len(genes) < length:

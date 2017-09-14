@@ -1,6 +1,6 @@
 import datetime
 import random
-
+#s
 gene_set = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890@#$%^&*()-="
 target = "my p455w0rd 15 v3ry l0n6 4nd c0mpl1c473d"
 
