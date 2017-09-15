@@ -26,15 +26,15 @@ def guess_password(target):
     genetic.get_best(fnGetFitness, len(target), optimal_fitness, gene_set, fnDisplay)
 
 
-def test_hello_world():
+def hello_world():
     target = "Hello world!"
     guess_password(target)
 
-def test_For_I_am_fearfully_and_wonderfully_made():
+def for_I_am_fearfully_and_wonderfully_made():
    target = "For I am fearfully and wonderfully made."
    guess_password(target)
 
 
 if __name__ == '__main__':
-    test_hello_world()
-    test_For_I_am_fearfully_and_wonderfully_made()
+    hello_world()
+    for_I_am_fearfully_and_wonderfully_made()
